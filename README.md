@@ -20,6 +20,8 @@ Solution :-
       
       : Load the network's config file (stored network's configuration / architexture detail).
 
+      : Read the network's files using Caffe framework.
+
       : Convert the image into blob format- helps the network to understand the image through blob format. 
         Note- the parameters of blob function to convert image into blob is as per the newtwork's configuration text file.
       
