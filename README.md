@@ -6,7 +6,9 @@ Solution :-
 
   > Framework - Caffe
 
-  > Dataset (while training the network) - ILSVRC2012 
+  > Dataset (while training the network) - ILSVRC2012
+
+  > Library - cv2, numpy, matplotlib.pyplot 
 
   > Pipeline (Inderfence/testing) :-
 
