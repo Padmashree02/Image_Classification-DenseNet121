@@ -18,11 +18,12 @@ Solution :-
       
       : Load the network's config file (stored network's configuration / architexture detail).
 
-      : Convert the image into blob format- helps the network to understand the image through blob format.
+      : Convert the image into blob format- helps the network to understand the image through blob format. 
+        Note- the parameters of blob function to convert image into blob is as per the newtwork's configuration text file.
       
       : Set the blob image ready and pass the blob forward to the to the loaded model
 
-      : Receive the first layer of the output layers and flatten the layer wrt number of classes (1000)- this layer consists of the classification scores of all classes wrt to an input image
+      : Receive the first layer from the output layers and flatten the layer wrt number of classes (1000)- this layer consists of the classification scores of all classes wrt to an input image
 
       : From the flatten layer, search for the class's index and the score who has maximum classification score.
 
