@@ -10,7 +10,9 @@ Solution :-
 
   > Pipeline (Inderfence/testing) :-
 
-      : read the image.
+      : Read the image.
+
+      : Extract the class names from the class file- ILSVRC2012 dataset.
 
       : Load the network's model file (stored trained weights). 
       
