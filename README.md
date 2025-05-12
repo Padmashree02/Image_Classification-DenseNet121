@@ -25,7 +25,7 @@ Solution :-
       : Convert the image into blob format- helps the network to understand the image through blob format. 
         Note- the parameters of blob function to convert image into blob is as per the newtwork's configuration text file.
       
-      : Set the blob image ready and pass the blob forward to the to the loaded model
+      : Set the blob image ready and pass the blob forward to the to the loaded model.
 
       : Receive the first layer from the output layers and flatten the layer wrt number of classes (1000)- this layer consists of the classification scores of all classes wrt to an input image
 
